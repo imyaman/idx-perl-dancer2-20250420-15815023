@@ -14,4 +14,4 @@ buildPerl 5.26.0
 
 # build the Dacner2 perl module
 # this calles cpanm internally ... 
-buildPerlModule Dancer2
+buildPerlModule http://search.cpan.org/CPAN/authors/id/G/GO/GONZUS/HTTP-XSCookies-0.000016.tar.gz Dancer2
