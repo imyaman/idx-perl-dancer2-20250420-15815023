@@ -1,6 +1,7 @@
 ---
 applications:
-- name: cf-spring
-  memory: 768M
-  instances: 1
-  random-route: true
+- name: perl-dancer2-imyaman
+buildpack: https://github.com/oetiker/sourcey-buildpack
+instances: 1
+memory: 256M
+random-route: true
