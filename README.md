@@ -11,7 +11,7 @@ $ git clone https://github.com/imyaman/cf-sample-app-perl-dancer2
 
 $ cd cf-sample-app-perl-dancer2
 
-$ vi manifest.yml
+$ vi manifest.yml    # Change the app name
 
 $ cf push
 ```
