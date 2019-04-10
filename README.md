@@ -7,9 +7,9 @@
 
 $ cf login -a https://api.cf.youre.space    # Use your cf API URL
 
-$ git clone https://github.com/imyaman/cf-sample-app-perl-dancer2
+$ git clone https://github.com/imyaman/github-webhook-perl-dancer2
 
-$ cd cf-sample-app-perl-dancer2
+$ cd github-webhook-perl-dancer2
 
 $ vi manifest.yml    # Change the app name
 
