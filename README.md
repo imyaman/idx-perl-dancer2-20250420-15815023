@@ -1,17 +1,5 @@
-* Use your cf API URL.
-* Change the app name in manifest.yml. 
-* The app name will be used for URL. Ex) http://perl-dancer2-imyaman.youre.space
 
 
-```
+## Run
 
-$ cf login -a https://api.cf.youre.space    # Use your cf API URL
-
-$ git clone https://github.com/imyaman/github-webhook-perl-dancer2
-
-$ cd github-webhook-perl-dancer2
-
-$ vi manifest.yml    # Change the app name
-
-$ cf push
-```
+plackup -l 0.0.0.0:3000 app.pl
