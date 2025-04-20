@@ -11,10 +11,6 @@ get '/' => sub {
        'err' => $err,
    };
 };
- 
-get '/hello/:name' => sub {
-    return "Why, hello there " . params->{name};
-};
 
 get '/envs' => sub {
   my $self = shift;
